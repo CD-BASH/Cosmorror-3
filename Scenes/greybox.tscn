@@ -1,0 +1,82 @@
+[gd_scene load_steps=6 format=3 uid="uid://b51l1hyhbrthp"]
+
+[ext_resource type="PackedScene" uid="uid://cnjnc7x1ngoaj" path="res://Scenes/player.tscn" id="2_cvk4e"]
+[ext_resource type="Material" uid="uid://bfclbvy0kvtga" path="res://Materials/Prototypes/grid_light_prototype.tres" id="2_phwk0"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_3skhw"]
+sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+
+[sub_resource type="Sky" id="Sky_k78f5"]
+sky_material = SubResource("ProceduralSkyMaterial_3skhw")
+
+[sub_resource type="Environment" id="Environment_jx358"]
+background_mode = 2
+sky = SubResource("Sky_k78f5")
+tonemap_mode = 3
+glow_enabled = true
+
+[node name="Greybox" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_jx358")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, -5, 4, 0)
+light_color = Color(0.768627, 0.913725, 1, 1)
+light_energy = 0.5
+shadow_enabled = true
+
+[node name="Player" parent="." instance=ExtResource("2_cvk4e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+camera_vertical_limits = Vector2(-45, 70)
+
+[node name="Room" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0)
+material_override = ExtResource("2_phwk0")
+cast_shadow = 2
+use_collision = true
+flip_faces = true
+size = Vector3(20, 8, 20)
+
+[node name="Lights" type="Node3D" parent="."]
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 6, -5)
+light_color = Color(1, 1, 0.878431, 1)
+light_energy = 2.0
+light_size = 0.005
+light_specular = 0.75
+shadow_enabled = true
+omni_range = 10.0
+omni_attenuation = 0.25
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 6, -5)
+light_color = Color(1, 1, 0.878431, 1)
+light_energy = 2.0
+light_size = 0.005
+light_specular = 0.75
+shadow_enabled = true
+omni_range = 10.0
+omni_attenuation = 0.25
+
+[node name="OmniLight3D3" type="OmniLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 6, 4)
+light_color = Color(1, 1, 0.878431, 1)
+light_energy = 2.0
+light_size = 0.005
+light_specular = 0.75
+shadow_enabled = true
+omni_range = 10.0
+omni_attenuation = 0.25
+
+[node name="OmniLight3D4" type="OmniLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 6, 4)
+light_color = Color(1, 1, 0.878431, 1)
+light_energy = 2.0
+light_size = 0.005
+light_specular = 0.75
+shadow_enabled = true
+omni_range = 10.0
+omni_attenuation = 0.25
