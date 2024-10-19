@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ch7go60a28wlw"
+path="res://.godot/imported/stan.obj-87cab4c7d5a4bc4808677156865dd08e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/stan.obj-87cab4c7d5a4bc4808677156865dd08e.mesh"]
+
+source_file="res://scenes/shaderlab/casting/stan.obj"
+dest_files=["res://.godot/imported/stan.obj-87cab4c7d5a4bc4808677156865dd08e.mesh", "res://.godot/imported/stan.obj-87cab4c7d5a4bc4808677156865dd08e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
