@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bex8sogv6e4l2"
-path="res://.godot/imported/miami.png-13356ff2a725f1eec810ab0cafde2ede.ctex"
+uid="uid://cvv1tog7d7bn3"
+path="res://.godot/imported/owl.png-2d42a4616f3094507c988062845e1985.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://shaders/dither/textures/palettes/miami.png"
-dest_files=["res://.godot/imported/miami.png-13356ff2a725f1eec810ab0cafde2ede.ctex"]
+source_file="res://materials/textures/palettes/owl.png"
+dest_files=["res://.godot/imported/owl.png-2d42a4616f3094507c988062845e1985.ctex"]
 
 [params]
 

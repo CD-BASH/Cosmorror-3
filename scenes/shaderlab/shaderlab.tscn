@@ -2,8 +2,8 @@
 
 [ext_resource type="Shader" path="res://shaders/dither/dither.gdshader" id="1_k8876"]
 [ext_resource type="Script" path="res://scenes/shaderlab/scripts/animate-torus.gd" id="2_n3u77"]
-[ext_resource type="Texture2D" uid="uid://c6g2jugufvsd6" path="res://shaders/dither/textures/patterns/bayer2.png" id="2_rmkhb"]
-[ext_resource type="Texture2D" uid="uid://chgr3dptqv00" path="res://shaders/dither/textures/palettes/wood.png" id="3_6bn71"]
+[ext_resource type="Texture2D" uid="uid://c6g2jugufvsd6" path="res://materials/textures/patterns/bayer2.png" id="2_rmkhb"]
+[ext_resource type="Texture2D" uid="uid://cvv1tog7d7bn3" path="res://materials/textures/palettes/owl.png" id="3_16x3m"]
 [ext_resource type="Script" path="res://scenes/shaderlab/scripts/animate-sphere.gd" id="3_f7442"]
 [ext_resource type="ArrayMesh" uid="uid://ryhmx5dobuk" path="res://scenes/shaderlab/casting/suzanne.obj" id="4_n67ag"]
 [ext_resource type="Script" path="res://scenes/shaderlab/scripts/animate-suzanne.gd" id="5_uykut"]
@@ -16,9 +16,28 @@ shader_parameter/u_dither_size = 4
 shader_parameter/u_contrast = 1.0
 shader_parameter/u_offset = 4.75e-08
 shader_parameter/u_dither_texture = ExtResource("2_rmkhb")
-shader_parameter/u_palette_texture = ExtResource("3_6bn71")
+shader_parameter/u_palette_texture = ExtResource("3_16x3m")
 
 [node name="root3d" type="Node3D"]
+
+[node name="objects" type="Node" parent="."]
+
+[node name="torus" type="CSGTorus3D" parent="objects"]
+transform = Transform3D(0.509117, -0.509117, 0, 0.36, 0.36, -0.509117, 0.36, 0.36, 0.509117, -1.39998, -1.01157, 0)
+script = ExtResource("2_n3u77")
+
+[node name="sphere" type="CSGSphere3D" parent="objects"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.273, 0.979, -0.34)
+script = ExtResource("3_f7442")
+
+[node name="suzanne" type="CSGMesh3D" parent="objects"]
+transform = Transform3D(0.469106, 0.38689, 0.304394, -0.329398, 0.559162, -0.203065, -0.365837, -0.00736444, 0.573157, -0.886107, 0.76813, 0.153872)
+mesh = ExtResource("4_n67ag")
+script = ExtResource("5_uykut")
+
+[node name="stan" type="CSGMesh3D" parent="objects"]
+transform = Transform3D(13.2932, 0, -5.04962, 0, 14.22, 0, 5.04962, 0, 13.2932, 1.98491, -2.60748, -0.200034)
+mesh = ExtResource("6_ela4k")
 
 [node name="root" type="Node" parent="."]
 
@@ -31,25 +50,6 @@ offset_bottom = 40.0
 handle_input_locally = false
 size = Vector2i(1440, 1080)
 render_target_update_mode = 4
-
-[node name="objects" type="Node" parent="root/viewport-container/viewport"]
-
-[node name="torus" type="CSGTorus3D" parent="root/viewport-container/viewport/objects"]
-transform = Transform3D(0.509117, -0.509117, 0, 0.36, 0.36, -0.509117, 0.36, 0.36, 0.509117, -1.39998, -1.01157, 0)
-script = ExtResource("2_n3u77")
-
-[node name="sphere" type="CSGSphere3D" parent="root/viewport-container/viewport/objects"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.273, 0.979, -0.34)
-script = ExtResource("3_f7442")
-
-[node name="suzanne" type="CSGMesh3D" parent="root/viewport-container/viewport/objects"]
-transform = Transform3D(0.469106, 0.38689, 0.304394, -0.329398, 0.559162, -0.203065, -0.365837, -0.00736444, 0.573157, -0.886107, 0.76813, 0.153872)
-mesh = ExtResource("4_n67ag")
-script = ExtResource("5_uykut")
-
-[node name="stan" type="CSGMesh3D" parent="root/viewport-container/viewport/objects"]
-transform = Transform3D(13.2932, 0, -5.04962, 0, 14.22, 0, 5.04962, 0, 13.2932, 1.98491, -2.60748, -0.200034)
-mesh = ExtResource("6_ela4k")
 
 [node name="camera" type="Camera3D" parent="root/viewport-container/viewport"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.05274)

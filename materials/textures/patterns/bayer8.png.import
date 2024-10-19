@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://chgr3dptqv00"
-path="res://.godot/imported/wood.png-e5286ebb000ef660cec4a60a47cd0488.ctex"
+uid="uid://d0t2koeuodiuv"
+path="res://.godot/imported/bayer8.png-1844d54028487d26c1bed02c2db45b17.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://shaders/dither/textures/palettes/wood.png"
-dest_files=["res://.godot/imported/wood.png-e5286ebb000ef660cec4a60a47cd0488.ctex"]
+source_file="res://materials/textures/patterns/bayer8.png"
+dest_files=["res://.godot/imported/bayer8.png-1844d54028487d26c1bed02c2db45b17.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d0t2koeuodiuv"
-path="res://.godot/imported/bayer8.png-7a391af11c8df2a59422f87e522fa0bb.ctex"
+uid="uid://cusyimrpabjcl"
+path="res://.godot/imported/cruela.png-452a55b49705d280c853b09f9dab89a9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://shaders/dither/textures/patterns/bayer8.png"
-dest_files=["res://.godot/imported/bayer8.png-7a391af11c8df2a59422f87e522fa0bb.ctex"]
+source_file="res://materials/textures/palettes/cruela.png"
+dest_files=["res://.godot/imported/cruela.png-452a55b49705d280c853b09f9dab89a9.ctex"]
 
 [params]
 

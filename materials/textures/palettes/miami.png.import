@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6g2jugufvsd6"
-path="res://.godot/imported/bayer2.png-681f79f4ba9809ae956d6f55131c9b62.ctex"
+uid="uid://bex8sogv6e4l2"
+path="res://.godot/imported/miami.png-a838d1700c31b3490f673f9ec3328cee.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://shaders/dither/textures/patterns/bayer2.png"
-dest_files=["res://.godot/imported/bayer2.png-681f79f4ba9809ae956d6f55131c9b62.ctex"]
+source_file="res://materials/textures/palettes/miami.png"
+dest_files=["res://.godot/imported/miami.png-a838d1700c31b3490f673f9ec3328cee.ctex"]
 
 [params]
 

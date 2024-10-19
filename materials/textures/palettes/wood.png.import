@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cvv1tog7d7bn3"
-path="res://.godot/imported/owl.png-1c2a4fb40ab4d436ac87c470e3dc2ee5.ctex"
+uid="uid://chgr3dptqv00"
+path="res://.godot/imported/wood.png-514f6a0b4b8e24ad76c055622866202b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://shaders/dither/textures/palettes/owl.png"
-dest_files=["res://.godot/imported/owl.png-1c2a4fb40ab4d436ac87c470e3dc2ee5.ctex"]
+source_file="res://materials/textures/palettes/wood.png"
+dest_files=["res://.godot/imported/wood.png-514f6a0b4b8e24ad76c055622866202b.ctex"]
 
 [params]
 

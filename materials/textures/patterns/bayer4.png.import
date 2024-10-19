@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bi3thc66i8ibe"
-path="res://.godot/imported/aqua.png-aac68e6faec966486499ec1ca682b201.ctex"
+uid="uid://cgg8la3cndxux"
+path="res://.godot/imported/bayer4.png-14f09fd1e87ebfdc36f9ce8200d4bf32.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://shaders/dither/textures/palettes/aqua.png"
-dest_files=["res://.godot/imported/aqua.png-aac68e6faec966486499ec1ca682b201.ctex"]
+source_file="res://materials/textures/patterns/bayer4.png"
+dest_files=["res://.godot/imported/bayer4.png-14f09fd1e87ebfdc36f9ce8200d4bf32.ctex"]
 
 [params]
 

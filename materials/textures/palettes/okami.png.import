@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cgg8la3cndxux"
-path="res://.godot/imported/bayer4.png-3c3a2f75c5f495ffe44d9fc9e96336e6.ctex"
+uid="uid://5skkgj707lbr"
+path="res://.godot/imported/okami.png-19c8d94d455880e369fe4d0512013795.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://shaders/dither/textures/patterns/bayer4.png"
-dest_files=["res://.godot/imported/bayer4.png-3c3a2f75c5f495ffe44d9fc9e96336e6.ctex"]
+source_file="res://materials/textures/palettes/okami.png"
+dest_files=["res://.godot/imported/okami.png-19c8d94d455880e369fe4d0512013795.ctex"]
 
 [params]
 

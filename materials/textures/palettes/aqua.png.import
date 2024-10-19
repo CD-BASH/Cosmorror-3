@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cusyimrpabjcl"
-path="res://.godot/imported/cruela.png-766ed72adfbb1a7ddf0dbf7a8c0eaf99.ctex"
+uid="uid://bi3thc66i8ibe"
+path="res://.godot/imported/aqua.png-3cef2d45e9f9828843d2e9b744cea78f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://shaders/dither/textures/palettes/cruela.png"
-dest_files=["res://.godot/imported/cruela.png-766ed72adfbb1a7ddf0dbf7a8c0eaf99.ctex"]
+source_file="res://materials/textures/palettes/aqua.png"
+dest_files=["res://.godot/imported/aqua.png-3cef2d45e9f9828843d2e9b744cea78f.ctex"]
 
 [params]
 
