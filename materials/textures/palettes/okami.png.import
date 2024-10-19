@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5skkgj707lbr"
-path="res://.godot/imported/okami.png-19c8d94d455880e369fe4d0512013795.ctex"
+path="res://.godot/imported/okami.png-af9c127cccdeaa627d5a9c400324acf2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://materials/textures/palettes/okami.png"
-dest_files=["res://.godot/imported/okami.png-19c8d94d455880e369fe4d0512013795.ctex"]
+source_file="res://Materials/textures/palettes/okami.png"
+dest_files=["res://.godot/imported/okami.png-af9c127cccdeaa627d5a9c400324acf2.ctex"]
 
 [params]
 

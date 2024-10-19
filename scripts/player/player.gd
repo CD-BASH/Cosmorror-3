@@ -5,7 +5,6 @@ extends CharacterBody3D
 @export var camera_vertical_limits = Vector2(-90.0, 90.0)
 
 @onready var camera_pivot: Node3D = $CameraPivot
-@onready var smooth_camera: Camera3D = %SmoothCamera
 
 
 var gravity: float = ProjectSettings.get_setting("physics/3d/default_gravity")

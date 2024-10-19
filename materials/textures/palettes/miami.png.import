@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bex8sogv6e4l2"
-path="res://.godot/imported/miami.png-a838d1700c31b3490f673f9ec3328cee.ctex"
+path="res://.godot/imported/miami.png-41cf1008a8fb23e3a8a7b1a69ddf5b0a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://materials/textures/palettes/miami.png"
-dest_files=["res://.godot/imported/miami.png-a838d1700c31b3490f673f9ec3328cee.ctex"]
+source_file="res://Materials/textures/palettes/miami.png"
+dest_files=["res://.godot/imported/miami.png-41cf1008a8fb23e3a8a7b1a69ddf5b0a.ctex"]
 
 [params]
 

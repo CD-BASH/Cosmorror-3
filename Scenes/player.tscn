@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://cnjnc7x1ngoaj"]
+[gd_scene load_steps=6 format=3 uid="uid://1m5nj11m0pho"]
 
 [ext_resource type="Script" path="res://scripts/player/player.gd" id="1_18soq"]
 [ext_resource type="Script" path="res://scripts/player/smooth_camera.gd" id="2_cb5d4"]
+[ext_resource type="PackedScene" uid="uid://ckqeyh6usbpmj" path="res://dithering_viewport.tscn" id="3_77snv"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_i0213"]
 
@@ -22,3 +23,6 @@ shape = SubResource("CapsuleShape3D_rx61d")
 unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3, 0)
 script = ExtResource("2_cb5d4")
+
+[node name="Dithering Viewport" parent="." node_paths=PackedStringArray("player_camera") instance=ExtResource("3_77snv")]
+player_camera = NodePath("../CameraPivot/SmoothCamera")
